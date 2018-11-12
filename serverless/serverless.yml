@@ -1,0 +1,26 @@
+service:
+  name: aws-nodejs-typescript
+
+# Add the serverless-webpack plugin
+plugins:
+  - serverless-webpack
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  profile: ${self:custom.profiles.${self:provider.stage}}
+  region: eu-west-1
+  environment:
+    STRIPE_SECRET_KEY: ${self:custom.secrets.stripeSecretKey} # Stripe secret API key
+
+# The `functions` block defines what code to deploy
+functions:
+  fetchProducts:
+    handler: functions/fetchProducts.handler
+    events:
+      - http:
+          path: products
+          method: get
+
+
