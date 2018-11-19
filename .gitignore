@@ -25,3 +25,4 @@ yarn-error.log*
 /serverless/secrets.json
 
 serverless/secrets.json
+src/config.js
