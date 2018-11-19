@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import { css } from 'emotion';
-import DefaultImage from '../../content/DefaultImage/DefaultImage';
+import DefaultImage from '../content/DefaultImage/DefaultImage';
 // import PayButton from "../PayButton";
 
 const product = css`
