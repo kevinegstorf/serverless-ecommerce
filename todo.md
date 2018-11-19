@@ -4,8 +4,9 @@
 
 ### Dev stuff
 
-- refactor components
 - add storybook
+    - add jest addon
+    - make components work 
 - set up typescript
 - add tests for components
 - refine more features
@@ -13,6 +14,7 @@
 - maybe some end to end with ....
 - use docker to deploy FE app on aws cloud
 - CI CD process
+- <del>refactor components</del>
 - <del>determine which styling way to use</del>
   
 ### Setup to test app
@@ -33,6 +35,7 @@
 - product detail page
 - confirmation emails
 - checkout page
+- 404 page
 - tracking and tracing
 
 ### Reusable components
@@ -41,3 +44,4 @@
 - footer
 - modal
 - forms
+- loader
