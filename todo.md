@@ -6,15 +6,15 @@
 
 - add storybook
     - add jest addon
-    - make Product component work
-        - add mock data for sb 
-- set up typescript
+    - add mock data for sb 
 - add tests for components
 - refine more features
 - integration tests with api webdriver.io
 - maybe some end to end with ....
 - use docker to deploy FE app on aws cloud
 - CI CD process
+- <del>make Product component work</del>
+- <del>set up typescript</del>
 - <del>refactor components</del>
 - <del>determine which styling way to use</del>
   
