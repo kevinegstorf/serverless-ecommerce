@@ -6,7 +6,8 @@
 
 - add storybook
     - add jest addon
-    - make components work 
+    - make Product component work
+        - add mock data for sb 
 - set up typescript
 - add tests for components
 - refine more features
@@ -45,3 +46,6 @@
 - modal
 - forms
 - loader
+
+### documentation
+- README
