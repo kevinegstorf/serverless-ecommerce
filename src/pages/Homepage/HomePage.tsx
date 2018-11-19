@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from '../../components/content/Button/Button.tsx';
+import { Button } from '../../components/content/Button/Button';
 
 export default class HomePage extends Component {
     render() {
