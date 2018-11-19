@@ -13,10 +13,10 @@ storiesOf('Button', module)
       ~~~js
       <Button>Click</Button>
       ~~~
-      `)(() => <Button bg="palegoldenrod">Hello world</Button>),
+      `)(() => <Button bg="palegoldenrod">Click Me</Button>),
   )
   .addWithJSX('with background 2', () => (
     <Button  bg={color('bg', 'green')} disabled={boolean('disabled', false)}>
-      {text('text', 'Hello world')}
+      {text('text', 'Click Me')}
     </Button>
   ));
