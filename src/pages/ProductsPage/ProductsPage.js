@@ -32,12 +32,14 @@ export default class ProductsPage extends Component {
         const productList = products.map((product, index) => {
           console.log(product);
           return (
-              <Product id={product.id}
-                       name={product.name}
-                       caption={product.caption}
-                       description={product.description}
-                      //  skus={product.skus.data}
-                       images={product.images} />
+              <Product  
+                id={product.id}
+                key ={product.name}
+                name={product.name}
+                caption={product.caption}
+                description={product.description}
+                //  skus={product.skus.data}
+                images={product.images} />
           );
         });
     
