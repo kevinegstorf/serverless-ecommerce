@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch, Link} from "react-router-dom";
+import { BrowserRouter, Route, Switch} from "react-router-dom";
 
-import HomePage from './pages/Homepage/HomePage.tsx';
-import ProductsPage from './pages/ProductsPage/ProductsPage.tsx';
+import HomePage from './pages/Hompage/Homepage';
+import ProductsPage from './pages/ProductPage/ProductPage';
 
 export default class  App extends Component {
   render() {

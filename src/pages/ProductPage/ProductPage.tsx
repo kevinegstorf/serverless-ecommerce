@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Product from '../../components/Product/Product';
-import './ProductsPage.css';
 
 import config from "../../config";
 
@@ -12,25 +11,29 @@ export default class ProductsPage extends Component {
       componentDidMount() {
         this.fetchProducts();
       }
+
     
-      async fetchProducts() { // Token returned from Stripe
-        const res = await fetch(config.stripe.productsUrl, { // Backend API url
-          method: 'GET'
-        });
-        const response = await res.json();
-        const products = response.data;
-    
-        this.setState({
-          products
-        });
+      async fetchProducts(): Promise<void> { // Token returned from Stripe
+        try {
+            const res = await fetch(config.stripe.productsUrl, { // Backend API url
+              method: 'GET'
+            });
+            const response = await res.json();
+            const products = response.data;
+        
+            this.setState({
+              products
+            });
+        } catch (error){
+            console.log(error)
+        }
       }
     
     
       render() {
         const {products} = this.state;
     
-        const productList = products.map((product, index) => {
-          console.log(product);
+        const productList = products.map((product: any, index) => {
           return (
               <Product  
                 id={product.id}
@@ -38,7 +41,7 @@ export default class ProductsPage extends Component {
                 name={product.name}
                 caption={product.caption}
                 description={product.description}
-                //  skus={product.skus.data}
+                skus=''
                 images={product.images} />
           );
         });

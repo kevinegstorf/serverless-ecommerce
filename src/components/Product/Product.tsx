@@ -1,28 +1,33 @@
 import React, {Component} from "react";
 import { css } from 'emotion';
-import DefaultImage from '../content/DefaultImage/DefaultImage';
+import DefaultImage from '../DefaultImage/DefaultImage';
 // import PayButton from "../PayButton";
 
 const product = css`
   background-color: hotpink;
 `
 
-class Product extends Component {
+type ProductProps = {
+  id: string,
+  name: string,
+  caption: string,
+  images: Array<string>,
+  description: string,
+  skus: string
+}
 
-  constructor(props) {
-    super(props);
+class Product extends Component<ProductProps, any> {
 
-    this.state = {
-      currentImage: 0,
-    //   currentSku: props.skus[0]
-    };
-  }
+  state = {
+    currentImage: 0,
+  //   currentSku: props.skus[0]
+  };
 
   render() {
     const {id, name, caption, images, description} = this.props;
     const {currentImage} = this.state;
 
-    const thumbnails = images.map((image, index) => {
+    const thumbnails = images.map((image:string, index: number) => {
       console.log(image);
       return image.length === 0 ? <DefaultImage/> : <img alt = 'product' key={index}
                   className={"product-thumbnail " + (index === currentImage
@@ -31,7 +36,7 @@ class Product extends Component {
                   src={image} width="75"/>
     });
 
-    const itemImage = (images) => {
+    const itemImage = (images: Array<string>) => {
       return images.length === 0 ? <DefaultImage/> : <img alt={name} className="product-image img-fluid"
       src={images[currentImage]}/>      
     }
