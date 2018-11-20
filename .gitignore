@@ -27,3 +27,4 @@ yarn-error.log*
 serverless/secrets.json
 src/config.js
 .cache
+src/config.ts
