@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="css-uzmgpz"
+      >
+        <div
+          class="product-images col-xs-12 col-sm-6 col-lg-8"
+        >
+          <div
+            class="product-image-wrapper row"
+          >
+            <div
+              class="col-xs-12 col-lg-2 d-none d-lg-block d-xl-block"
+            >
+              <div
+                class="product-thumbnails"
+              >
+                <img
+                  alt="product"
+                  class="product-thumbnail selected"
+                  src="hello"
+                  width="75"
+                />
+              </div>
+            </div>
+            <div
+              class="col-xs-12 col-lg-10"
+            >
+              <img
+                alt="hello"
+                class="product-image img-fluid"
+                src="hello"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="product-details col-xs-12 col-sm-6 col-lg-4"
+        >
+          <h2
+            class="product-name"
+          >
+            hello
+          </h2>
+          <h1
+            class="product-caption"
+          >
+            test
+          </h1>
+          <div
+            class="product-price"
+          >
+            <div
+              class="product-taxes"
+            >
+              Inclusief BTW
+            </div>
+          </div>
+          <p
+            class="product-description"
+          >
+            test
+          </p>
+          <hr />
+          <hr />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="css-uzmgpz"
+    >
+      <div
+        class="product-images col-xs-12 col-sm-6 col-lg-8"
+      >
+        <div
+          class="product-image-wrapper row"
+        >
+          <div
+            class="col-xs-12 col-lg-2 d-none d-lg-block d-xl-block"
+          >
+            <div
+              class="product-thumbnails"
+            >
+              <img
+                alt="product"
+                class="product-thumbnail selected"
+                src="hello"
+                width="75"
+              />
+            </div>
+          </div>
+          <div
+            class="col-xs-12 col-lg-10"
+          >
+            <img
+              alt="hello"
+              class="product-image img-fluid"
+              src="hello"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="product-details col-xs-12 col-sm-6 col-lg-4"
+      >
+        <h2
+          class="product-name"
+        >
+          hello
+        </h2>
+        <h1
+          class="product-caption"
+        >
+          test
+        </h1>
+        <div
+          class="product-price"
+        >
+          <div
+            class="product-taxes"
+          >
+            Inclusief BTW
+          </div>
+        </div>
+        <p
+          class="product-description"
+        >
+          test
+        </p>
+        <hr />
+        <hr />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "getAllByAltText": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllBySelectText": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getAllByValue": [Function],
+  "getByAltText": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getBySelectText": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "getByValue": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllBySelectText": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryAllByValue": [Function],
+  "queryByAltText": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryBySelectText": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "queryByValue": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
