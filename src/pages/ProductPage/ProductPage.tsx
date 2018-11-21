@@ -12,7 +12,6 @@ export default class ProductsPage extends Component {
         this.fetchProducts();
       }
 
-    
       async fetchProducts(): Promise<void> { // Token returned from Stripe
         try {
             const res = await fetch(config.stripe.productsUrl, { // Backend API url
