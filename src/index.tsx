@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { injectGlobal } from 'emotion'
+
+injectGlobal`
+  html,body{
+    font-family: 'Lato';
+  }
+`;
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
