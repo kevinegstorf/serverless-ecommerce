@@ -4,7 +4,7 @@ export default class HomePage extends Component {
     render() {
         return (
             <div>
-                <h1>The Nerd Shirt</h1>
+                <h1>shirt shop</h1>
             </div>
         );
     }

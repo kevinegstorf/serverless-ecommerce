@@ -1,9 +1,12 @@
 import * as React from 'react';
 import { css } from 'emotion';
 import DefaultImage from '../DefaultImage/DefaultImage';
+import {color} from '../../__styles__/index';
+
+console.log(color.pink)
 
 const product = css`
-  background-color: hotpink;
+  background-color: ${color.pink};
 `
 
 export type ProductProps = {
