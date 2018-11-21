@@ -6,6 +6,7 @@
 - add CI and CD
 - hook up payment provider
 - look inti how to test emotion styling
+- add global styles
 
 ## Features
 
