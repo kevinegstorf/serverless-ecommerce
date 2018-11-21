@@ -6,7 +6,7 @@ const product = css`
   background-color: hotpink;
 `
 
-type ProductProps = {
+export type ProductProps = {
   id: string,
   name: string,
   caption: string,
