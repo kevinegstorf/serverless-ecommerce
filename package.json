@@ -5,7 +5,7 @@
   "dependencies": {
     "@types/jest": "23.3.9",
     "@types/node": "10.12.9",
-    "@types/react": "16.7.6",
+    "@types/react": "^16.7.6",
     "@types/react-dom": "^16.0.9",
     "@types/react-router-dom": "^4.3.1",
     "cross-spawn": "^6.0.5",
@@ -15,7 +15,7 @@
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
-    "typescript": "3.1.6"
+    "typescript": "^3.1.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,8 +41,10 @@
     "@storybook/addons": "^4.0.7",
     "@storybook/react": "^4.0.7",
     "awesome-typescript-loader": "^5.2.1",
+    "babel-core": "^6.26.3",
     "babel-loader": "^8.0.4",
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
-    "react-testing-library": "^5.2.3"
+    "react-testing-library": "^5.2.3",
+    "storybook-addon-jsx": "^5.4.0"
   }
 }

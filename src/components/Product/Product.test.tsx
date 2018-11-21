@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { render } from 'react-testing-library';
 import Product from './Product';
 
