@@ -1,7 +1,6 @@
-import React, {Component} from "react";
+import * as React from 'react';
 import { css } from 'emotion';
 import DefaultImage from '../DefaultImage/DefaultImage';
-// import PayButton from "../PayButton";
 
 const product = css`
   background-color: hotpink;
@@ -16,11 +15,10 @@ type ProductProps = {
   skus: string
 }
 
-class Product extends Component<ProductProps, any> {
+class Product extends React.Component<ProductProps, any> {
 
   state = {
     currentImage: 0,
-  //   currentSku: props.skus[0]
   };
 
   render() {
@@ -40,23 +38,6 @@ class Product extends Component<ProductProps, any> {
       return images.length === 0 ? <DefaultImage/> : <img alt={name} className="product-image img-fluid"
       src={images[currentImage]}/>      
     }
-
-    // const skuList = skus.map((sku, index) => {
-
-    //   const {attributes} = sku;
-
-    //   return (
-    //       <div key={sku.id}
-    //            className={"col-xs-2 product-sku " + (currentSku.id === sku.id
-    //                ? 'selected' : '')}
-    //            onClick={() => this.setState({currentSku: sku})}>
-    //         {attributes.size}
-    //       </div>
-    //   );
-    // });
-
-    // const euros = price.substring(0, price.length - 2);
-    // const cents = price.slice(-2);
 
     return (
         <div key={id} className={product}>
