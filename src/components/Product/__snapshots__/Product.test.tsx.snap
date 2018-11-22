@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="css-uzmgpz"
+        class="css-161baxu"
       >
         <div
           class="product-images col-xs-12 col-sm-6 col-lg-8"
@@ -43,7 +43,7 @@ Object {
           class="product-details col-xs-12 col-sm-6 col-lg-4"
         >
           <h2
-            class="product-name"
+            class="css-161baxu"
           >
             hello
           </h2>
@@ -74,7 +74,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="css-uzmgpz"
+      class="css-161baxu"
     >
       <div
         class="product-images col-xs-12 col-sm-6 col-lg-8"
@@ -111,7 +111,7 @@ Object {
         class="product-details col-xs-12 col-sm-6 col-lg-4"
       >
         <h2
-          class="product-name"
+          class="css-161baxu"
         >
           hello
         </h2>

@@ -2,11 +2,13 @@ import * as React from 'react';
 import { css } from 'emotion';
 import DefaultImage from '../DefaultImage/DefaultImage';
 import {color} from '../../__styles__/index';
+import placeholder from '../DefaultImage/images/default-image.svg';
 
 console.log(color.pink)
 
 const product = css`
   background-color: ${color.pink};
+  font-family: 'Lato';
 `
 
 export type ProductProps = {
@@ -22,6 +24,7 @@ class Product extends React.Component<ProductProps, any> {
 
   state = {
     currentImage: 0,
+    defaultImage: placeholder
   };
 
   render() {
@@ -29,8 +32,8 @@ class Product extends React.Component<ProductProps, any> {
     const {currentImage} = this.state;
 
     const thumbnails = images.map((image:string, index: number) => {
-      console.log(image);
-      return image.length === 0 ? <DefaultImage/> : <img alt = 'product' key={index}
+      console.log(placeholder);
+      return image.length === 0 ? <DefaultImage placeholder={this.state.defaultImage}/> : <img alt = 'product' key={index}
                   className={"product-thumbnail " + (index === currentImage
                       ? 'selected' : '')}
                   onClick={() => this.setState({currentImage: index})}
@@ -38,16 +41,15 @@ class Product extends React.Component<ProductProps, any> {
     });
 
     const itemImage = (images: Array<string>) => {
-      return images.length === 0 ? <DefaultImage/> : <img alt={name} className="product-image img-fluid"
+      return images.length === 0 ? <DefaultImage placeholder={this.state.defaultImage}/> : <img alt={name} className="product-image img-fluid"
       src={images[currentImage]}/>      
     }
-
     return (
         <div key={id} className={product}>
           <div className="product-images col-xs-12 col-sm-6 col-lg-8">
             <div className="product-image-wrapper row">
               <div className="col-xs-12 col-lg-2 d-none d-lg-block d-xl-block">
-                <div className="product-thumbnails">{images.length === 0 ? <DefaultImage/> : thumbnails}</div>
+                <div className="product-thumbnails">{images.length === 0 ? <DefaultImage placeholder={this.state.defaultImage}/> : thumbnails}</div>
               </div>
               <div className="col-xs-12 col-lg-10">
               {itemImage(images)}
@@ -55,7 +57,7 @@ class Product extends React.Component<ProductProps, any> {
             </div>
           </div>
           <div className="product-details col-xs-12 col-sm-6 col-lg-4">
-            <h2 className="product-name">{name}</h2>
+            <h2 className={product}>{name}</h2>
             <h1 className="product-caption">{caption}</h1>
             <div
                 className="product-price">

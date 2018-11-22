@@ -43,6 +43,7 @@
   ],
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
+    "@dump247/storybook-state": "^1.5.2",
     "@storybook/addon-actions": "^4.0.7",
     "@storybook/addon-info": "^4.0.8",
     "@storybook/addon-knobs": "^4.0.8",
