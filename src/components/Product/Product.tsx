@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { css } from 'emotion';
 import DefaultImage from '../DefaultImage/DefaultImage';
-import {color} from '../../__styles__/index';
+import {color, font} from '../../__styles__/index';
 import placeholder from '../DefaultImage/images/default-image.svg';
 
 console.log(color.pink)
 
 const product = css`
   background-color: ${color.pink};
-  font-family: 'Lato';
+  font-family: ${font.main};
 `
 
 export type ProductProps = {

@@ -1,8 +1,10 @@
 import * as React from 'react';
 import { css } from 'emotion';
+import {color, font} from '../../__styles__/index';
 
 const navigation = css`
-  background-color: hotpink;
+  background-color: ${color.pink};
+  font-family: ${font.main};
 `
 
 export interface NavigationProps {
