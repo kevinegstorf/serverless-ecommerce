@@ -4,8 +4,6 @@ import DefaultImage from '../DefaultImage/DefaultImage';
 import { color, font } from '../../__styles__/index';
 import placeholder from '../DefaultImage/images/default-image.svg';
 
-console.log(color.pink);
-
 const product = css`
   background-color: ${color.pink};
   font-family: ${font.main};
