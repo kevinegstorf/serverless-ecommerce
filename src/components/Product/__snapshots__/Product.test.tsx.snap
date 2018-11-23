@@ -9,107 +9,20 @@ Object {
         class="css-1qbzdwb"
       >
         <div
-          class="product-images col-xs-12 col-sm-6 col-lg-8"
+          class="product-thumbnails"
         >
-          <div
-            class="product-image-wrapper row"
-          >
-            <div
-              class="col-xs-12 col-lg-2 d-none d-lg-block d-xl-block"
-            >
-              <div
-                class="product-thumbnails"
-              >
-                <img
-                  alt="product"
-                  class="product-thumbnail selected"
-                  src="hello"
-                  width="75"
-                />
-              </div>
-            </div>
-            <div
-              class="col-xs-12 col-lg-10"
-            >
-              <img
-                alt="hello"
-                class="product-image img-fluid"
-                src="hello"
-              />
-            </div>
-          </div>
+          <img
+            alt="product"
+            class="product-thumbnail selected"
+            src="hello"
+            width="75"
+          />
         </div>
-        <div
-          class="product-details col-xs-12 col-sm-6 col-lg-4"
-        >
-          <h2
-            class="css-1qbzdwb"
-          >
-            hello
-          </h2>
-          <h1
-            class="product-caption"
-          >
-            test
-          </h1>
-          <div
-            class="product-price"
-          >
-            <div
-              class="product-taxes"
-            >
-              Inclusief BTW
-            </div>
-          </div>
-          <p
-            class="product-description"
-          >
-            test
-          </p>
-          <hr />
-          <hr />
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="css-1qbzdwb"
-    >
-      <div
-        class="product-images col-xs-12 col-sm-6 col-lg-8"
-      >
-        <div
-          class="product-image-wrapper row"
-        >
-          <div
-            class="col-xs-12 col-lg-2 d-none d-lg-block d-xl-block"
-          >
-            <div
-              class="product-thumbnails"
-            >
-              <img
-                alt="product"
-                class="product-thumbnail selected"
-                src="hello"
-                width="75"
-              />
-            </div>
-          </div>
-          <div
-            class="col-xs-12 col-lg-10"
-          >
-            <img
-              alt="hello"
-              class="product-image img-fluid"
-              src="hello"
-            />
-          </div>
-        </div>
-      </div>
-      <div
-        class="product-details col-xs-12 col-sm-6 col-lg-4"
-      >
+        <img
+          alt="hello"
+          class="product-image img-fluid"
+          src="hello"
+        />
         <h2
           class="css-1qbzdwb"
         >
@@ -120,23 +33,48 @@ Object {
         >
           test
         </h1>
-        <div
-          class="product-price"
-        >
-          <div
-            class="product-taxes"
-          >
-            Inclusief BTW
-          </div>
-        </div>
         <p
           class="product-description"
         >
           test
         </p>
-        <hr />
-        <hr />
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="css-1qbzdwb"
+    >
+      <div
+        class="product-thumbnails"
+      >
+        <img
+          alt="product"
+          class="product-thumbnail selected"
+          src="hello"
+          width="75"
+        />
+      </div>
+      <img
+        alt="hello"
+        class="product-image img-fluid"
+        src="hello"
+      />
+      <h2
+        class="css-1qbzdwb"
+      >
+        hello
+      </h2>
+      <h1
+        class="product-caption"
+      >
+        test
+      </h1>
+      <p
+        class="product-description"
+      >
+        test
+      </p>
     </div>
   </div>,
   "debug": [Function],
