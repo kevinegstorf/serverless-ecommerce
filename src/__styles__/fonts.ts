@@ -1,6 +1,7 @@
 // Fonts
 const fonts = {
-    main: 'lato'
+    main: 'lato',
+    button: 'karla'
 }
 
 export default fonts
