@@ -2,11 +2,11 @@
 
 ## dev tasks
 
-- make storybook work on components
 - add CI and CD
 - hook up payment provider
 - look inti how to test emotion styling
-- add global styles
+- <del>make storybook work on components</del>
+- <del>add global styles</del>
 
 ## Features
 
@@ -25,5 +25,7 @@
 - modal
 - header
 - footer
+- button
+- incrementer
 
 ## Bugs to fix
