@@ -1269,6 +1269,10 @@
   dependencies:
     "@types/react" "*"
 
+"@types/storybook__addon-jest@^3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@types/storybook__addon-jest/-/storybook__addon-jest-3.4.1.tgz#a77c93b84ee467d9571567d16f14143e210b39f1"
+
 "@types/storybook__addon-knobs@^3.4.1":
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/@types/storybook__addon-knobs/-/storybook__addon-knobs-3.4.1.tgz#36a9ff38c50b00b198bfdc04f6c0aaf747e0ed86"
@@ -9768,6 +9772,10 @@ statuses@~1.4.0:
 stealthy-require@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
+
+storybook-addon-jest@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/storybook-addon-jest/-/storybook-addon-jest-0.0.1.tgz#8a8de3b354ed6a80099c0426d506065124a592a7"
 
 storybook-addon-jsx@^5.4.0:
   version "5.4.0"
