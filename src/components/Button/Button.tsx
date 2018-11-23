@@ -1,4 +1,11 @@
 import * as React from 'react';
+import { color, font } from '../../__styles__/index';
+import { css } from 'emotion';
+
+const button = css`
+  background-color: ${color.pink};
+  font-family: ${font.main};
+`;
 
 export interface Props {
   /** this dictates what the button will say  */
@@ -15,13 +22,9 @@ export interface Props {
 const noop = () => {};
 export const Button = (props: Props) => {
   const { children, onClick, disabled = false } = props;
-  const disabledclass = disabled ? 'Button_disabled' : '';
   return (
-    <div
-      className={`Button ${disabledclass}`}
-      onClick={!disabled ? onClick : noop}
-    >
+    <button className={button} onClick={!disabled ? onClick : noop}>
       <span>{children}</span>
-    </div>
+    </button>
   );
 };

@@ -20,5 +20,5 @@ storiesOf('Welcome', module).addWithJSX(
     ### To use this Storybook
 
     Explore the panels on the left.
-  `)(() => <div>This is an example component</div>)
+  `)(() => <div style={{fontFamily: 'lato'}}>This is an example component</div>)
 );
