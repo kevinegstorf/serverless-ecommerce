@@ -3,9 +3,9 @@ import { wInfo } from '../../utils';
 
 import { storiesOf } from '@storybook/react';
 import { Button } from './Button';
-import { text, boolean } from '@storybook/addon-knobs/react';
+import { text } from '@storybook/addon-knobs/react';
 
-(storiesOf('Button', module)as any)
+(storiesOf('Button', module) as any)
   .addWithJSX(
     'with background',
     wInfo(`
@@ -14,10 +14,8 @@ import { text, boolean } from '@storybook/addon-knobs/react';
       ~~~js
       <Button>Click Me</Button>
       ~~~
-      `)(() => <Button onClick={() => {}}>{text('text', 'Hello world')}</Button>),
+      `)(() => <Button onClick={() => {}}>{text('text', 'Click Me')}</Button>)
   )
   .addWithJSX('with background 2', () => (
-    <Button onClick={() => {}}>disabled={boolean('disabled', false)}>
-      {text('text', 'Hello world')}
-    </Button>
+    <Button onClick={() => {}}>{text('text', 'Click Me')}</Button>
   ));
