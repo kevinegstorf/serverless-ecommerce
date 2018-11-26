@@ -1,15 +1,3 @@
-// import React from 'react';
-
-// const DefaultImage = (props: any) => {
-//     const placeholder = props
-//     console.log(placeholder)
-//     return <img alt='default' src={placeholder} height="42" width="42"/>
-// };
-
-
-// export default DefaultImage;
-
-
 import * as React from 'react';
 
 interface DefaultImageProps {

@@ -1,80 +1,78 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshopt test 1`] = `
+exports[`snapshot test 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="css-1qbzdwb"
-      >
+      <div>
         <div
-          class="product-thumbnails"
+          class="css-obaqkn"
         >
-          <img
-            alt="product"
-            class="product-thumbnail selected"
-            src="hello"
-            width="75"
-          />
+          <ul
+            class="css-10e31a0"
+          >
+            <li>
+              HOME
+            </li>
+            <li>
+              CONTACT
+            </li>
+            <li>
+              DELIVERY
+            </li>
+            <li>
+              TERMS
+            </li>
+            <li>
+              <input />
+            </li>
+            <li>
+              LOGIN
+            </li>
+          </ul>
         </div>
-        <img
-          alt="hello"
-          class="product-image img-fluid"
-          src="hello"
-        />
-        <h2
-          class="css-1qbzdwb"
-        >
-          hello
-        </h2>
-        <h1
-          class="product-caption"
-        >
-          test
-        </h1>
-        <p
-          class="product-description"
-        >
-          test
-        </p>
+        <div>
+          <h1>
+            shirt shop
+          </h1>
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="css-1qbzdwb"
-    >
+    <div>
       <div
-        class="product-thumbnails"
+        class="css-obaqkn"
       >
-        <img
-          alt="product"
-          class="product-thumbnail selected"
-          src="hello"
-          width="75"
-        />
+        <ul
+          class="css-10e31a0"
+        >
+          <li>
+            HOME
+          </li>
+          <li>
+            CONTACT
+          </li>
+          <li>
+            DELIVERY
+          </li>
+          <li>
+            TERMS
+          </li>
+          <li>
+            <input />
+          </li>
+          <li>
+            LOGIN
+          </li>
+        </ul>
       </div>
-      <img
-        alt="hello"
-        class="product-image img-fluid"
-        src="hello"
-      />
-      <h2
-        class="css-1qbzdwb"
-      >
-        hello
-      </h2>
-      <h1
-        class="product-caption"
-      >
-        test
-      </h1>
-      <p
-        class="product-description"
-      >
-        test
-      </p>
+      <div>
+        <h1>
+          shirt shop
+        </h1>
+      </div>
     </div>
   </div>,
   "debug": [Function],

@@ -1,81 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshopt test 1`] = `
+exports[`snapshot test 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="css-1qbzdwb"
-      >
-        <div
-          class="product-thumbnails"
-        >
-          <img
-            alt="product"
-            class="product-thumbnail selected"
-            src="hello"
-            width="75"
-          />
-        </div>
-        <img
-          alt="hello"
-          class="product-image img-fluid"
-          src="hello"
-        />
-        <h2
-          class="css-1qbzdwb"
-        >
-          hello
-        </h2>
-        <h1
-          class="product-caption"
-        >
-          test
-        </h1>
-        <p
-          class="product-description"
-        >
-          test
-        </p>
-      </div>
+      <img
+        alt="default"
+        class="nodejs"
+        height="42"
+        width="42"
+      />
     </div>
   </body>,
   "container": <div>
-    <div
-      class="css-1qbzdwb"
-    >
-      <div
-        class="product-thumbnails"
-      >
-        <img
-          alt="product"
-          class="product-thumbnail selected"
-          src="hello"
-          width="75"
-        />
-      </div>
-      <img
-        alt="hello"
-        class="product-image img-fluid"
-        src="hello"
-      />
-      <h2
-        class="css-1qbzdwb"
-      >
-        hello
-      </h2>
-      <h1
-        class="product-caption"
-      >
-        test
-      </h1>
-      <p
-        class="product-description"
-      >
-        test
-      </p>
-    </div>
+    <img
+      alt="default"
+      class="nodejs"
+      height="42"
+      width="42"
+    />
   </div>,
   "debug": [Function],
   "getAllByAltText": [Function],
