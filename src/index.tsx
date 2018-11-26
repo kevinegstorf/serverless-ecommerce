@@ -4,12 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { injectGlobal } from 'emotion'
-import {color, font} from './__styles__/index';
+import {font} from './__styles__/index';
 
 injectGlobal`
   html,body{
     font-family: ${font.main};
-    background-color: ${color.pink};
   }
 `;
 
