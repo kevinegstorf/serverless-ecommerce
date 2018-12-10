@@ -1,4 +1,4 @@
-import '@storybook/addon-knobs/register';
+import {withKnobs} from '@storybook/addon-knobs';
 import 'storybook-addon-jest/register';
 import 'storybook-addon-jest/styles';
 import '@dump247/storybook-state/register';
